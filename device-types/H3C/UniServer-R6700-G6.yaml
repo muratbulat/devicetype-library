@@ -1,0 +1,29 @@
+---
+manufacturer: H3C
+model: UniServer R6700 G6
+slug: h3c-uniserver-r6700-g6
+u_height: 2
+is_full_depth: true
+comments: '[H3C UniServer R6700 G6 Server QuickSpecs](https://www.h3c.com/en/Products_and_Solutions/Computing/UniServer_Series/Products_With_Picture/4U/R6700_G6/R6700_G6/)'
+console-ports:
+  - name: Serial
+    type: Usb-C
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 2000
+  - name: PSU2
+    type: iec-60320-c14
+    maximum_draw: 2000
+interfaces:
+  - name: Net 1
+    type: 1000base-t
+  - name: Net 2
+    type: 1000base-t
+  - name: Net 3
+    type: 1000base-t
+  - name: Net 4
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
